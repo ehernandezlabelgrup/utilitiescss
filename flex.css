@@ -141,20 +141,6 @@
   order: 0;
 }
 
-/* Gap */
-.gap-1 {
-  gap: 0.25rem;
-}
-.gap-2 {
-  gap: 0.5rem;
-}
-.gap-4 {
-  gap: 1rem;
-}
-.gap-8 {
-  gap: 2rem;
-}
-
 /* Breakpoint sm */
 @media (min-width: 640px) {
   /* Contenedor Flex */
