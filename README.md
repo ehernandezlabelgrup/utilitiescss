@@ -53,7 +53,7 @@ Después de la instalación, tu carpeta `utilities` contendrá los siguientes ar
 
 ## Uso
 
-Para utilizar estas utilidades en tu proyecto, importa los archivos CSS en tu archivo CSS principal. Aquí tienes un ejemplo de cómo hacerlo:
+Para utilizar estas utilidades tu proyecto, importa los archivos CSS en tu archivo CSS principal. Aquí tienes un ejemplo de cómo hacerlo:
 
 ```css
 @import url("utilities/keyframes.css");
