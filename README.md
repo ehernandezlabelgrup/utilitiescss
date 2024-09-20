@@ -77,13 +77,13 @@ html {
 
 Asegúrate de ajustar las rutas de los archivos según la estructura de tu proyecto si es necesario.
 
+### Personalización
+
+El archivo `template.css` contiene las variables que puedes ajustar para personalizar el aspecto y comportamiento de las utilidades CSS. Modifica estas variables según las necesidades de tu proyecto para una mayor flexibilidad y consistencia en tu diseño.
+
 ## Contribución
 
 Si deseas contribuir a este proyecto, por favor abre un issue o envía un pull request.
-
-## Licencia
-
-[Incluye aquí la información sobre la licencia de tu proyecto]
 
 ## Créditos
 
