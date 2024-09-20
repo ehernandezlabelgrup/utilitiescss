@@ -1,0 +1,325 @@
+/* Clases para tamaño de fuente (actualizadas con la nueva clase) */
+.text-xs {
+  font-size: var(--font-size-xs);
+}
+.text-sm {
+  font-size: var(--font-size-sm);
+}
+.text-base {
+  font-size: var(--font-size-base);
+}
+.text-lg {
+  font-size: var(--font-size-lg);
+}
+.text-xl {
+  font-size: var(--font-size-xl);
+}
+.text-2xl {
+  font-size: var(--font-size-2xl);
+}
+.text-3xl {
+  font-size: var(--font-size-3xl);
+}
+.text-4xl {
+  font-size: var(--font-size-4xl);
+}
+.text-5xl {
+  font-size: var(--font-size-5xl);
+}
+.text-6xl {
+  font-size: var(--font-size-6xl);
+}
+.text-7xl {
+  font-size: var(--font-size-7xl);
+}
+.text-8xl {
+  font-size: var(--font-size-8xl);
+}
+.text-9xl {
+  font-size: var(--font-size-9xl);
+}
+.text-10xl {
+  font-size: var(--font-size-10xl);
+}
+.text-11xl {
+  font-size: var(--font-size-11xl);
+}
+
+/* Utilidades para la familia de fuente */
+.font-main {
+  font-family: var(--font-family-main);
+}
+
+/* Utilidades para el peso de la fuente */
+.font-normal {
+  font-weight: normal;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-black {
+  font-weight: 900;
+}
+
+/* Utilidades para el estilo de la fuente */
+.italic {
+  font-style: italic;
+}
+.not-italic {
+  font-style: normal;
+}
+
+/* Clases combinadas para peso y estilo */
+.font-normal-italic {
+  font-weight: normal;
+  font-style: italic;
+}
+.font-medium-italic {
+  font-weight: 500;
+  font-style: italic;
+}
+.font-bold-italic {
+  font-weight: bold;
+  font-style: italic;
+}
+.font-black-italic {
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Clases para color de texto (mantenidas de la versión anterior) */
+.text-primary {
+  color: var(--color-primary) !important;
+}
+.text-secondary {
+  color: var(--color-secondary) !important;
+}
+.text-white {
+  color: var(--color-white);
+}
+.text-blue {
+  color: var(--color-blue);
+}
+
+.leading-none {
+  line-height: var(--line-height-none);
+}
+.leading-tight {
+  line-height: var(--line-height-tight);
+}
+.leading-snug {
+  line-height: var(--line-height-snug);
+}
+.leading-normal {
+  line-height: var(--line-height-normal);
+}
+.leading-relaxed {
+  line-height: var(--line-height-relaxed);
+}
+.leading-loose {
+  line-height: var(--line-height-loose);
+}
+
+/* Utilidad para line-height personalizado */
+.leading-custom {
+  line-height: var(--custom-line-height, inherit);
+}
+
+/* Breakpoint sm */
+@media (min-width: 640px) {
+  .sm\:text-xs {
+    font-size: var(--font-size-xs-sm, var(--font-size-xs));
+  }
+  .sm\:text-sm {
+    font-size: var(--font-size-sm-sm, var(--font-size-sm));
+  }
+  .sm\:text-base {
+    font-size: var(--font-size-base-sm, var(--font-size-base));
+  }
+  .sm\:text-lg {
+    font-size: var(--font-size-lg-sm, var(--font-size-lg));
+  }
+  .sm\:text-xl {
+    font-size: var(--font-size-xl-sm, var(--font-size-xl));
+  }
+  .sm\:text-2xl {
+    font-size: var(--font-size-2xl-sm, var(--font-size-2xl));
+  }
+  .sm\:text-3xl {
+    font-size: var(--font-size-3xl-sm, var(--font-size-3xl));
+  }
+  .sm\:text-4xl {
+    font-size: var(--font-size-4xl-sm, var(--font-size-4xl));
+  }
+  .sm\:text-5xl {
+    font-size: var(--font-size-5xl-sm, var(--font-size-5xl));
+  }
+  .sm\:text-6xl {
+    font-size: var(--font-size-6xl-sm, var(--font-size-6xl));
+  }
+  .sm\:text-7xl {
+    font-size: var(--font-size-7xl-sm, var(--font-size-7xl));
+  }
+  .sm\:text-8xl {
+    font-size: var(--font-size-8xl-sm, var(--font-size-8xl));
+  }
+  .sm\:text-9xl {
+    font-size: var(--font-size-9xl-sm, var(--font-size-9xl));
+  }
+  .sm\:text-10xl {
+    font-size: var(--font-size-10xl-sm, var(--font-size-10xl));
+  }
+  .sm\:text-11xl {
+    font-size: var(--font-size-11xl-sm, var(--font-size-11xl));
+  }
+}
+
+/* Breakpoint md */
+@media (min-width: 768px) {
+  .md\:text-xs {
+    font-size: var(--font-size-xs-md, var(--font-size-xs));
+  }
+  .md\:text-sm {
+    font-size: var(--font-size-sm-md, var(--font-size-sm));
+  }
+  .md\:text-base {
+    font-size: var(--font-size-base-md, var(--font-size-base));
+  }
+  .md\:text-lg {
+    font-size: var(--font-size-lg-md, var(--font-size-lg));
+  }
+  .md\:text-xl {
+    font-size: var(--font-size-xl-md, var(--font-size-xl));
+  }
+  .md\:text-2xl {
+    font-size: var(--font-size-2xl-md, var(--font-size-2xl));
+  }
+  .md\:text-3xl {
+    font-size: var(--font-size-3xl-md, var(--font-size-3xl));
+  }
+  .md\:text-4xl {
+    font-size: var(--font-size-4xl-md, var(--font-size-4xl));
+  }
+  .md\:text-5xl {
+    font-size: var(--font-size-5xl-md, var(--font-size-5xl));
+  }
+  .md\:text-6xl {
+    font-size: var(--font-size-6xl-md, var(--font-size-6xl));
+  }
+  .md\:text-7xl {
+    font-size: var(--font-size-7xl-md, var(--font-size-7xl));
+  }
+  .md\:text-8xl {
+    font-size: var(--font-size-8xl-md, var(--font-size-8xl));
+  }
+  .md\:text-9xl {
+    font-size: var(--font-size-9xl-md, var(--font-size-9xl));
+  }
+  .md\:text-10xl {
+    font-size: var(--font-size-10xl-md, var(--font-size-10xl));
+  }
+  .md\:text-11xl {
+    font-size: var(--font-size-11xl-md, var(--font-size-11xl));
+  }
+}
+
+/* Breakpoint lg */
+@media (min-width: 1024px) {
+  .lg\:text-xs {
+    font-size: var(--font-size-xs-lg, var(--font-size-xs));
+  }
+  .lg\:text-sm {
+    font-size: var(--font-size-sm-lg, var(--font-size-sm));
+  }
+  .lg\:text-base {
+    font-size: var(--font-size-base-lg, var(--font-size-base));
+  }
+  .lg\:text-lg {
+    font-size: var(--font-size-lg-lg, var(--font-size-lg));
+  }
+  .lg\:text-xl {
+    font-size: var(--font-size-xl-lg, var(--font-size-xl));
+  }
+  .lg\:text-2xl {
+    font-size: var(--font-size-2xl-lg, var(--font-size-2xl));
+  }
+  .lg\:text-3xl {
+    font-size: var(--font-size-3xl-lg, var(--font-size-3xl));
+  }
+  .lg\:text-4xl {
+    font-size: var(--font-size-4xl-lg, var(--font-size-4xl));
+  }
+  .lg\:text-5xl {
+    font-size: var(--font-size-5xl-lg, var(--font-size-5xl));
+  }
+  .lg\:text-6xl {
+    font-size: var(--font-size-6xl-lg, var(--font-size-6xl));
+  }
+  .lg\:text-7xl {
+    font-size: var(--font-size-7xl-lg, var(--font-size-7xl));
+  }
+  .lg\:text-8xl {
+    font-size: var(--font-size-8xl-lg, var(--font-size-8xl));
+  }
+  .lg\:text-9xl {
+    font-size: var(--font-size-9xl-lg, var(--font-size-9xl));
+  }
+  .lg\:text-10xl {
+    font-size: var(--font-size-10xl-lg, var(--font-size-10xl));
+  }
+  .lg\:text-11xl {
+    font-size: var(--font-size-11xl-lg, var(--font-size-11xl));
+  }
+}
+
+/* Breakpoint xl */
+@media (min-width: 1280px) {
+  .xl\:text-xs {
+    font-size: var(--font-size-xs-xl, var(--font-size-xs));
+  }
+  .xl\:text-sm {
+    font-size: var(--font-size-sm-xl, var(--font-size-sm));
+  }
+  .xl\:text-base {
+    font-size: var(--font-size-base-xl, var(--font-size-base));
+  }
+  .xl\:text-lg {
+    font-size: var(--font-size-lg-xl, var(--font-size-lg));
+  }
+  .xl\:text-xl {
+    font-size: var(--font-size-xl-xl, var(--font-size-xl));
+  }
+  .xl\:text-2xl {
+    font-size: var(--font-size-2xl-xl, var(--font-size-2xl));
+  }
+  .xl\:text-3xl {
+    font-size: var(--font-size-3xl-xl, var(--font-size-3xl));
+  }
+  .xl\:text-4xl {
+    font-size: var(--font-size-4xl-xl, var(--font-size-4xl));
+  }
+  .xl\:text-5xl {
+    font-size: var(--font-size-5xl-xl, var(--font-size-5xl));
+  }
+  .xl\:text-6xl {
+    font-size: var(--font-size-6xl-xl, var(--font-size-6xl));
+  }
+  .xl\:text-7xl {
+    font-size: var(--font-size-7xl-xl, var(--font-size-7xl));
+  }
+  .xl\:text-8xl {
+    font-size: var(--font-size-8xl-xl, var(--font-size-8xl));
+  }
+  .xl\:text-9xl {
+    font-size: var(--font-size-9xl-xl, var(--font-size-9xl));
+  }
+  .xl\:text-10xl {
+    font-size: var(--font-size-10xl-xl, var(--font-size-10xl));
+  }
+  .xl\:text-11xl {
+    font-size: var(--font-size-11xl-xl, var(--font-size-11xl));
+  }
+}
