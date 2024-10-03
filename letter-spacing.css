@@ -1,0 +1,104 @@
+/* Utilidades para letter-spacing */
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+.tracking-normal {
+  letter-spacing: 0;
+}
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+/* Media queries para breakpoints responsivos */
+@media (min-width: var(--breakpoint-sm)) {
+  .sm\:tracking-tighter {
+    letter-spacing: -0.05em;
+  }
+  .sm\:tracking-tight {
+    letter-spacing: -0.025em;
+  }
+  .sm\:tracking-normal {
+    letter-spacing: 0;
+  }
+  .sm\:tracking-wide {
+    letter-spacing: 0.025em;
+  }
+  .sm\:tracking-wider {
+    letter-spacing: 0.05em;
+  }
+  .sm\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: var(--breakpoint-md)) {
+  .md\:tracking-tighter {
+    letter-spacing: -0.05em;
+  }
+  .md\:tracking-tight {
+    letter-spacing: -0.025em;
+  }
+  .md\:tracking-normal {
+    letter-spacing: 0;
+  }
+  .md\:tracking-wide {
+    letter-spacing: 0.025em;
+  }
+  .md\:tracking-wider {
+    letter-spacing: 0.05em;
+  }
+  .md\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: var(--breakpoint-lg)) {
+  .lg\:tracking-tighter {
+    letter-spacing: -0.05em;
+  }
+  .lg\:tracking-tight {
+    letter-spacing: -0.025em;
+  }
+  .lg\:tracking-normal {
+    letter-spacing: 0;
+  }
+  .lg\:tracking-wide {
+    letter-spacing: 0.025em;
+  }
+  .lg\:tracking-wider {
+    letter-spacing: 0.05em;
+  }
+  .lg\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: var(--breakpoint-xl)) {
+  .xl\:tracking-tighter {
+    letter-spacing: -0.05em;
+  }
+  .xl\:tracking-tight {
+    letter-spacing: -0.025em;
+  }
+  .xl\:tracking-normal {
+    letter-spacing: 0;
+  }
+  .xl\:tracking-wide {
+    letter-spacing: 0.025em;
+  }
+  .xl\:tracking-wider {
+    letter-spacing: 0.05em;
+  }
+  .xl\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}

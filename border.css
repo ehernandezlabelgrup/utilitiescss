@@ -451,3 +451,196 @@
     border-radius: var(--rounded-full-xl, 9999px);
   }
 }
+/* Utilidad base para border-none */
+.border-none {
+  border-style: none;
+}
+
+/* Hover para border-none */
+.hover\:border-none:hover {
+  border-style: none;
+}
+
+/* Breakpoint sm */
+@media (min-width: var(--breakpoint-sm)) {
+  .sm\:border-none {
+    border-style: none;
+  }
+
+  .sm\:hover\:border-none:hover {
+    border-style: none;
+  }
+}
+
+/* Breakpoint md */
+@media (min-width: var(--breakpoint-md)) {
+  .md\:border-none {
+    border-style: none;
+  }
+
+  .md\:hover\:border-none:hover {
+    border-style: none;
+  }
+}
+
+/* Breakpoint lg */
+@media (min-width: var(--breakpoint-lg)) {
+  .lg\:border-none {
+    border-style: none;
+  }
+
+  .lg\:hover\:border-none:hover {
+    border-style: none;
+  }
+}
+
+/* Breakpoint xl */
+@media (min-width: var(--breakpoint-xl)) {
+  .xl\:border-none {
+    border-style: none;
+  }
+
+  .xl\:hover\:border-none:hover {
+    border-style: none;
+  }
+}
+/* Hover para ancho de borde */
+.hover\:border:hover {
+  border-width: 1px;
+}
+.hover\:border-0:hover {
+  border-width: 0;
+}
+.hover\:border-2:hover {
+  border-width: 2px;
+}
+.hover\:border-4:hover {
+  border-width: 4px;
+}
+.hover\:border-8:hover {
+  border-width: 8px;
+}
+
+/* Hover para bordes específicos (ancho) */
+.hover\:border-t:hover {
+  border-top-width: 1px;
+}
+.hover\:border-r:hover {
+  border-right-width: 1px;
+}
+.hover\:border-b:hover {
+  border-bottom-width: 1px;
+}
+.hover\:border-l:hover {
+  border-left-width: 1px;
+}
+
+/* Hover para estilos de borde específicos */
+.hover\:border-solid:hover {
+  border-style: solid;
+}
+.hover\:border-dashed:hover {
+  border-style: dashed;
+}
+.hover\:border-dotted:hover {
+  border-style: dotted;
+}
+.hover\:border-double:hover {
+  border-style: double;
+}
+
+/* Hover para color de borde */
+.hover\:border-primary:hover {
+  border-color: var(--color-primary) !important;
+}
+.hover\:border-secondary:hover {
+  border-color: var(--color-secondary);
+}
+.hover\:border-white:hover {
+  border-color: var(--color-white);
+}
+
+/* Hover para bordes redondeados */
+.hover\:rounded-none:hover {
+  border-radius: 0;
+}
+.hover\:rounded-sm:hover {
+  border-radius: 0.125rem;
+}
+.hover\:rounded:hover {
+  border-radius: 0.25rem;
+}
+.hover\:rounded-md:hover {
+  border-radius: 0.375rem;
+}
+.hover\:rounded-lg:hover {
+  border-radius: 0.5rem;
+}
+.hover\:rounded-xl:hover {
+  border-radius: 0.75rem;
+}
+.hover\:rounded-2xl:hover {
+  border-radius: 1rem;
+}
+.hover\:rounded-3xl:hover {
+  border-radius: 1.5rem;
+}
+.hover\:rounded-full:hover {
+  border-radius: 9999px;
+}
+
+/* Breakpoint sm */
+@media (min-width: var(--breakpoint-sm)) {
+  .sm\:hover\:border:hover {
+    border-width: 1px;
+  }
+  .sm\:hover\:border-primary:hover {
+    border-color: var(--color-primary) !important;
+  }
+  .sm\:hover\:rounded:hover {
+    border-radius: var(--rounded-sm, 0.25rem);
+  }
+  /* Añade más clases según sea necesario */
+}
+
+/* Breakpoint md */
+@media (min-width: var(--breakpoint-md)) {
+  .md\:hover\:border:hover {
+    border-width: 1px;
+  }
+  .md\:hover\:border-primary:hover {
+    border-color: var(--color-primary) !important;
+  }
+  .md\:hover\:rounded:hover {
+    border-radius: var(--rounded-md, 0.25rem);
+  }
+  /* Añade más clases según sea necesario */
+}
+
+/* Breakpoint lg */
+@media (min-width: var(--breakpoint-lg)) {
+  .lg\:hover\:border:hover {
+    border-width: 1px;
+  }
+  .lg\:hover\:border-primary:hover {
+    border-color: var(--color-primary) !important;
+  }
+  .lg\:hover\:rounded:hover {
+    border-radius: var(--rounded-lg, 0.25rem);
+  }
+  /* Añade más clases según sea necesario */
+}
+
+/* Breakpoint xl */
+@media (min-width: var(--breakpoint-xl)) {
+  .xl\:hover\:border:hover {
+    border-width: 1px;
+  }
+  .xl\:hover\:border-primary:hover {
+    border-color: var(--color-primary) !important;
+  }
+  .xl\:hover\:rounded:hover {
+    border-radius: var(--rounded-xl, 0.25rem);
+  }
+  /* Añade más clases según sea necesario */
+}

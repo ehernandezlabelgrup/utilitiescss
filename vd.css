@@ -1,0 +1,131 @@
+/* Visibilidad */
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+
+/* Display */
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.hidden {
+  display: none;
+}
+
+/* Breakpoint sm */
+@media (min-width: 640px) {
+  .sm\:visible {
+    visibility: visible;
+  }
+  .sm\:invisible {
+    visibility: hidden;
+  }
+  .sm\:block {
+    display: block;
+  }
+  .sm\:inline-block {
+    display: inline-block;
+  }
+  .sm\:inline {
+    display: inline;
+  }
+  .sm\:hidden {
+    display: none;
+  }
+}
+
+/* Breakpoint md */
+@media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+  .md\:invisible {
+    visibility: hidden;
+  }
+  .md\:block {
+    display: block;
+  }
+  .md\:inline-block {
+    display: inline-block;
+  }
+  .md\:inline {
+    display: inline;
+  }
+  .md\:hidden {
+    display: none;
+  }
+}
+
+/* Breakpoint lg */
+@media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+  .lg\:invisible {
+    visibility: hidden;
+  }
+  .lg\:block {
+    display: block;
+  }
+  .lg\:inline-block {
+    display: inline-block;
+  }
+  .lg\:inline {
+    display: inline;
+  }
+  .lg\:hidden {
+    display: none;
+  }
+}
+
+/* Breakpoint xl */
+@media (min-width: 1280px) {
+  .xl\:visible {
+    visibility: visible;
+  }
+  .xl\:invisible {
+    visibility: hidden;
+  }
+  .xl\:block {
+    display: block;
+  }
+  .xl\:inline-block {
+    display: inline-block;
+  }
+  .xl\:inline {
+    display: inline;
+  }
+  .xl\:hidden {
+    display: none;
+  }
+}
+
+/* Breakpoint 2xl */
+@media (min-width: 1536px) {
+  .\32xl\:visible {
+    visibility: visible;
+  }
+  .\32xl\:invisible {
+    visibility: hidden;
+  }
+  .\32xl\:block {
+    display: block;
+  }
+  .\32xl\:inline-block {
+    display: inline-block;
+  }
+  .\32xl\:inline {
+    display: inline;
+  }
+  .\32xl\:hidden {
+    display: none;
+  }
+}

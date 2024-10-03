@@ -4,7 +4,7 @@
   --color-secondary: #1d1d1d;
   --color-white: #ffffff;
   --color-blue: #3b60ff; /* Nuevo color añadido */
-
+  --color-muted: #aaaaaa;
   --animation-duration: 1s;
 
   --spacing-0: 0;
@@ -75,20 +75,6 @@
   --line-height-normal: 1.5;
   --line-height-relaxed: 1.625;
   --line-height-loose: 2;
-}
-
-/* Clases para color de fondo (mantenidas de la versión anterior) */
-.bg-primary {
-  background-color: var(--color-primary) !important;
-}
-.bg-secondary {
-  background-color: var(--color-secondary) !important;
-}
-.bg-white {
-  background-color: var(--color-white);
-}
-.bg-blue {
-  background-color: var(--color-blue); /* Nueva clase de fondo */
 }
 
 .opacity-0 {

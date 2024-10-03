@@ -1,0 +1,45 @@
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary) !important;
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.bg-blue {
+  background-color: var(--color-blue);
+}
+
+.bg-muted {
+  background-color: var(--color-muted);
+}
+
+/* Clases de fondo con hover */
+.hover\:bg-primary:hover {
+  background-color: var(--color-primary);
+}
+
+.hover\:bg-secondary:hover {
+  background-color: var(--color-secondary);
+}
+
+.hover\:bg-white:hover {
+  background-color: var(--color-white);
+}
+
+.hover\:bg-blue:hover {
+  background-color: var(--color-blue);
+}
+
+.hover\:bg-muted:hover {
+  background-color: var(--color-muted);
+}
+
+/* Transición suave para el efecto hover */
+.bg-transition {
+  transition: background-color 0.3s ease;
+}
